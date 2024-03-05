@@ -17,8 +17,10 @@ import {
   vue,
   vuetify,
   sql,
-  carrent,
+  yuristim,
+  mercury,
   jobit,
+  tictac,
   tripguide,
 } from "../assets";
 
@@ -157,16 +159,20 @@ const testimonials = [];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Yuristim uz (lending)",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Yuristim.uz is a dynamic and visually engaging landing project crafted with cutting-edge technologies including Vue.js, TypeScript, GSAP, and Tailwind CSS. This platform seamlessly blends a sleek user interface with powerful functionality, offering a seamless experience for visitors. With Vue.js providing robust interactivity, TypeScript ensuring type safety, GSAP for smooth animations, and Tailwind CSS for a responsive design, Yuristim.uz stands as a testament to innovation in web development. Explore the world of legal services with ease and style on Yuristim.uz.",
     tags: [
       {
-        name: "react",
+        name: "vue",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "gsap",
         color: "green-text-gradient",
       },
       {
@@ -174,41 +180,41 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: yuristim,
+    source_code_link: "https://www.yuristim.uz/",
   },
   {
-    name: "Job IT",
+    name: "Mercury (lending)",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Mercury Lending is a sleek and efficient web project, developed using Vue.js, TypeScript, and Tailwind CSS. Despite its simplicity, this platform offers a wealth of information through its well-organized sections. The seamless integration of Vue.js ensures a smooth and interactive user experience, while TypeScript adds a layer of type safety to the codebase. Tailwind CSS contributes to the project's clean and responsive design. Explore the world of lending with Mercury, where simplicity meets functionality.",
     tags: [
       {
-        name: "react",
+        name: "vue",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "typescript",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: mercury,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Tic tac toe (game)",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Dive into the timeless fun of Tic Tac Toe with this engaging web game. Crafted with precision using JavaScript, HTML, and CSS, this project showcases a seamless blend of functionality and design. Challenge your logical thinking and strategic skills in the classic battle of Xs and Os. With a clean and intuitive interface, this Tic Tac Toe game offers a delightful gaming experience for players of all ages. Enjoy the thrill of competition and test your wits with every move in this nostalgic yet modern rendition of a timeless classic.",
     tags: [
       {
-        name: "nextjs",
+        name: "javascript",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "html",
         color: "green-text-gradient",
       },
       {
@@ -216,8 +222,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: tictac,
+    source_code_link: "https://github.com/Abdukhamid000/TIC_TAC_TOE",
   },
 ];
 

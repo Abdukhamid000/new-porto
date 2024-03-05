@@ -4,8 +4,11 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import link from "./link.svg";
+import mercury from "./mercury.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import tictac from "./tictac.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -25,7 +28,7 @@ import vue from "./tech/vue.png";
 
 import uic from "./company/uic.svg";
 
-import carrent from "./carrent.png";
+import yuristim from "./yuristim.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -40,11 +43,14 @@ export {
   close,
   css,
   uic,
+  link,
+  mercury,
   vuetify,
   sql,
   vue,
   docker,
   figma,
+  tictac,
   git,
   html,
   javascript,
@@ -54,7 +60,7 @@ export {
   redux,
   tailwind,
   typescript,
-  carrent,
+  yuristim,
   jobit,
   tripguide,
 };
