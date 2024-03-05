@@ -19,12 +19,11 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import vuetify from "./tech/vuetify.png";
+import sql from "./tech/sql.jpg";
+import vue from "./tech/vue.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import uic from "./company/uic.svg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -40,6 +39,10 @@ export {
   menu,
   close,
   css,
+  uic,
+  vuetify,
+  sql,
+  vue,
   docker,
   figma,
   git,
@@ -51,11 +54,6 @@ export {
   redux,
   tailwind,
   typescript,
-  threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
   carrent,
   jobit,
   tripguide,
