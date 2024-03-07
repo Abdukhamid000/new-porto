@@ -179,6 +179,10 @@ const projects = [
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "vite",
+        color: "yellow-text-gradient",
+      },
     ],
     image: yuristim,
     source_code_link: "https://www.yuristim.uz/",
@@ -200,6 +204,10 @@ const projects = [
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "vite",
+        color: "yellow-text-gradient",
+      },
     ],
     image: mercury,
     source_code_link: "https://github.com/",
@@ -220,6 +228,10 @@ const projects = [
       {
         name: "css",
         color: "pink-text-gradient",
+      },
+      {
+        name: "vite",
+        color: "yellow-text-gradient",
       },
     ],
     image: tictac,
